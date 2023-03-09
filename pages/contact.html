@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+    <head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="stylesheet" href="../assets/style/style.css" />
+		<link rel="stylesheet" href="../assets/style/contact.css" />
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+
+		<title>Portfolio - Alexandre Ferreira</title>
+    </head>
+
+    <body>
+		<header class="l-header" id="header">
+			<nav class="nav bd-container">
+				<a href="../index.html" class="nav__logo">af.</a>
+				<div class="nav__menu" id="nav-menu">
+					<ul class="nav__list">
+						<li class="nav__item"><a href="about.html" class="nav__link">a propos.</a></li>
+						<li class="nav__item"><a href="portfolio.html" class="nav__link">portfolio.</a></li>
+						<li class="nav__item"><a href="projets.html" class="nav__link">projets.</a></li>
+						<li class="nav__item"><a href="contact.html" class="nav__link">contact.</a></li>
+					</ul>
+				</div>
+				<div class="nav__toggle" id="nav-toggle">
+					<i class="fas fa-border-all"></i>
+				</div>
+			</nav>	
+		</header>
+
+		<main>
+			<section>
+				<div class="container">
+					<aside class="contactInfo">
+						<div>
+							<h2>Contact</h2>
+							<ul class="info">
+								<li>
+									<span><i class="fas fa-search-location"></i></span>
+									<span>68 rue Pierre Evrat<br />Saint-Dié-des-Vosges, Vosges<br />88100</span>
+								</li>
+								<li>
+									<span><i class="far fa-envelope"></i></span>
+									<span>alexandre.ferreira.pro@outlook.com</span>
+								</li>
+								<li>
+									<span><i class="fas fa-phone"></i></span>
+									<span>07.70.16.02.94</span>
+								</li>
+							</ul>
+						</div>
+						<ul class="sci">
+							<li><a href="https://www.facebook.com/profile.php?id=100033737087693" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="https://www.instagram.com/af_chick/?hl=fr" target="_blank"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="https://github.com/UnknownChick" target="_blank"><i class="fab fa-github"></i></a></li>
+							<li><a href=""><i class="fab fa-artstation" target="_blank"></i></a></li>
+							<li><a href="https://www.linkedin.com/in/alexandre-ferreira-65a6b6174/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+							<li><a href=""><i class="far fa-file"></i></a></li>
+						</ul>
+					</aside>
+					
+					<article class="contactForm">
+						<h2>Travaillons ensemble</h2>
+						<form action="../assets/php/formulaire.php" method="GET" class="formBox">
+							<div class="inputBox w50">
+								<input id="name" type="text" name="firstname" required>
+								<label for="name">Prénom</label>
+							</div>
+							<div class="inputBox w50">
+								<input type="text" name="lastname" required>
+								<label>Nom</label>
+							</div>
+							<div class="inputBox w50">
+								<input type="email" name="email" required>
+								<label>Email</label>
+							</div>
+							<div class="inputBox w50">
+								<input type="text" name="phonenumber">
+								<label>Numéro de téléphone</label>
+							</div>
+							<div class="inputBox w100">
+								<textarea name="message" required></textarea>
+								<label>Message</label>
+							</div>
+							<div class="inputBox w100">
+								<input type="submit" value="Envoyez">
+							</div>
+						</form>
+					</article>
+				</div>
+			</section>
+		</main>
+
+		<script type="text/javascript" src="../assets/js/main.js"></script>
+		
+    </body>
+</html>

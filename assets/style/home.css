@@ -1,0 +1,47 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 88px);
+    background-image: url('../../images/MOSHED-2021-5-25-19-25-32.gif');
+    background-size: cover;
+}
+
+
+.line {
+    width: 16em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #fff;
+}
+
+/*Animation*/
+
+.anim-typewriter {
+    animation: typewriter 5s steps(40) 1s normal both,
+    blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter {
+    0% {
+          width: 0;
+    }
+    100% {
+        width: 17em;
+  }
+}
+
+@keyframes blinkTextCursor {
+    from {
+          border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to {
+          border-right-color: transparent;
+    }
+}
